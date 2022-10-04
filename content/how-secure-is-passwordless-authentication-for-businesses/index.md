@@ -1,7 +1,7 @@
 ---
 title: "How Secure Is Passwordless Authentication for Businesses?"
 date: 2022-10-04 T13:33:58+05:30
-coverImage: ""
+coverImage: "Passwordless Authentication for Businesses.png"
 author: "Archna Dhaka"
 tags: ["Article"]
 description: ""
