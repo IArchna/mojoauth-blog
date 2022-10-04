@@ -12,7 +12,7 @@ This article will talk about two important passwordless authentication security-
 
 * How secure is passwordless authentication to use?
 * What are the secure passwordless authentication methods?
-* 
+
 ## What is Passwordless Authentication?
 Passwordless authentication is the process of authenticating a user without the need for a password. With this, the user has to provide some information that is known only to them and the system, which can be used to identify them. 
 Biometric authentication is an example of passwordless authentication, while Magic Links and OTPs are examples of semi-passwordless authentication.
@@ -38,9 +38,7 @@ Passwordless authentication effectively checks the security box against password
 
 WebAuthn (Web Authentication API) is a specification that allows servers to register and authenticate users using public key cryptography instead of a password. It allows web applications to simplify and secure user authentication by using registered devices such as phones, security keys, and laptops as factors. 
 
-![WebAuthn](/assets/img/MarineGEO_logo.png "WebAuthn")
-
-
+![WebAuthn](webAuthn-authentication-biometric-securitykey.png "WebAuthn")
 
 Biometric authentication, such as fingerprint authentication, facial recognition, and retina scan are facilitated using WebAuthn. In addition, authentication using the security (hardware) keys and a combination of security keys with biometrics are also facilitated using WebAuthn. 
 
@@ -74,7 +72,7 @@ WebAuthn is a highly secure and convenient to use passwordless authentication me
 ### Magic Link Authentication
 Magic links are one-time use links sent to the user during the authentication process. Magic links contain a token and a hash function. Also, the magic links are time-bound and then auto-expire, regardless of whether they are used. Read more about its benefits and how to implement it [here](https://mojoauth.com/products/email-magic-link/).
 
-
+![Authentication via Email OTP](email-otp.png "Authentication via Email OTP")
 
 The authentication process with Magic Link looks like the following:
 
@@ -89,7 +87,7 @@ OTPs are one-time use passcodes sent to users during the authentication process.
 * **Email OTP Authentication:** Authenticate the user using an OTP sent to the user's email address. Read more about its benefits and how to implement it [here](https://mojoauth.com/products/email-otp/).
 * **SMS OTP Authentication:** Authenticate the user using an OTP sent to the user’s phone number via SMS. Read more about its benefits and how to implement it [here](https://mojoauth.com/products/sms-authentication/).
 
-
+![Authentication via SMS OTP](SMS-otp.png "Authentication via SMS OTP")
 
 The authentication process with OTP looks like the following:
 
